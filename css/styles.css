@@ -141,7 +141,11 @@ body {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/1st\ section\ background.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/1st\ section\ background.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -261,7 +265,7 @@ body {
 }
 
 .social-media {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
 }
@@ -283,10 +287,10 @@ body {
 
 .icon-fill {
   fill: #f4f4fd;
- }
+}
 
 .social-elements {
-  width: 40px; 
+  width: 40px;
   height: 40px;
 }
 
@@ -294,7 +298,8 @@ body {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .employee-stats {
