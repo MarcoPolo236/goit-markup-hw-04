@@ -136,18 +136,20 @@ body {
 /* ==========Header========== */
 
 .first-section {
-  background-color: #2e2f42;
-  padding: 188px 0;
-  background-image: linear-gradient(
+  background-color: #2E2F42;
+  background: linear-gradient(
+      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/1st\ section\ background.jpg);
-
-  max-width: 1440px;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  box-shadow: inset blur 50% grey;
+  text-align: center;
+  max-width: 1440px;
+  padding: 188px 0;
 }
 
 .page-title {
