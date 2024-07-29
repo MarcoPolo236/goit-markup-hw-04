@@ -145,9 +145,9 @@ body {
     url(../images/1st\ section\ background.jpg);
 
   max-width: 1440px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 .page-title {
